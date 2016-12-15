@@ -3,15 +3,83 @@
   margin: 0px;
 }
 
+.border {
+  border: 1px solid black;
+}
+
+.block {
+  border: 1px solid black;
+  display:block;
+  position:relative;
+}
 
 /*wrapper*/
 
 .wrapper {
   background-color: #e8e8e8;
+  width:970px;
 }
 
 /*first block*/
 
-.hello img {
+.first-block {
+  display:inline;
+}
+
+.hello {
+  width: 160px;
+  display: inline-block;
+}
+
+.you-cant-learn {
+  border: 1px solid black;
+  width:auto;
+  display:inline-block;
+}
+
+/*second block*/
+
+.navbar {
+  border: 1px solid black;
+}
+
+.bar {
+  border: 1px solid black;
+  display:inline;
   width: 100px;
+  padding: 10px;
+}
+
+/*Third block*/
+
+.radial {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(#72615a, #6f5d77, black);
+}
+
+.what-are-databases {
+  background-color: white;
+  width:300px;
+}
+
+.db-image img {
+  width:100px;
+}
+
+.bottom-blocks {
+  border: 1px solid black;
+  width:20%;
+  display:inline-block;
+}
+
+.bottom-blocks img {
+  width:100%;
+}
+
+.read-more {
+  background-color:
+  border: 2px solid black;
+  width: auto;
+  border-radius: 5px;
 }
