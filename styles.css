@@ -64,7 +64,7 @@
 /*Third block*/
 
 h1 {
-  background: linear-gradient(#eaeaea, #b5b5b5, #cccccc);
+  background: linear-gradient(#eaeaea, #777777, #cccccc);
   padding: 10px 5px;
   font-size: 1.1em;
 }
@@ -96,7 +96,8 @@ p {
 }
 
 .top-block {
-  margin: 10px 10px;
+  /*margin: 10px 10px;*/
+  margin:10px 10px 0px 10px;
 }
 
 .db-image {
@@ -113,10 +114,19 @@ p {
 /*stack*/
 
 .stack {
-  position: absolute;
-  right: 50px;
+  display:block;
+  padding: 10px 70px 12px 0px;
+  text-align: right;
+  color:#7788a3;;
+  width:98.5%;
 }
-
+.icon {
+  margin-top:2px;
+  max-height: 15px;
+}
+span {
+font-size: .75em;
+}
 /*bottom blocks*/
 
 .bot-blocks {
@@ -129,7 +139,7 @@ p {
   margin-bottom:10px;
   border: 1px solid black;
   width:23%;
-  height:440px;
+  height:400px;
   display:inline-block;
   background: linear-gradient(#7788a3, white);
   position: relative;
@@ -145,15 +155,21 @@ p {
 }
 
 .read-more {
-  font-size:.75em;
-  color:white;
   box-shadow: 1px 1px 2px black;
   display:inline-block;
   vertical-align: bottom;
   position: absolute;
-  right: 5px;
+  right: 20px;
   background-color: #7788a3;
   border: 2px solid black;
   width:auto;
   border-radius: 5px;
+}
+.read-more a {
+  font-weight: bold;
+  font-family: sans-serif;
+  padding:2px;
+  font-size:.65em;
+  color:white;
+  text-decoration: none;
 }
